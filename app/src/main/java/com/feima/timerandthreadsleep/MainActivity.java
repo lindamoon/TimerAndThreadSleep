@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+        thread.setPriority(Thread.MAX_PRIORITY);
         thread.start();
     }
 
